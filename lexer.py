@@ -79,7 +79,7 @@ class Lexer:
 
 
 if __name__ == "__main__":
-    code = "x = 10 + y * (3 - 1)"
+    code = input("Enter Expression:")
     lexer = Lexer(code)
 
     token = lexer.get_next_token()
